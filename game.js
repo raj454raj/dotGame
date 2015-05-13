@@ -1,6 +1,6 @@
 var can = document.getElementById("maincanvas");
 var ctx = can.getContext("2d");
-ctx.fillStyle = "#505050";
+ctx.fillStyle = "#7f8c8d";
 ctx.fillRect(0, 0, 500, 500);
 var mainflag=0;
 var supportflag=0;
@@ -15,7 +15,7 @@ for(var i=0 ; i<6; ++i)
 {
 	for(var j=0;j<6;++j)
 	{
-		ctx.fillStyle = "#ff3366";
+		ctx.fillStyle = "#c0392b";
 		ctx.beginPath();
 		points[k++] = { y:75+70*i, x:70+70*j, l:0, r:0, u:0, d:0}
 		ctx.arc(75+70*i,70+70*j,3,0,2*Math.PI);

@@ -59,8 +59,12 @@
 	<link rel="stylesheet" href="style.css">
     <script>
         $(function(){
-            $("#dobp1").datepicker();
-            $("#dobp2").datepicker();
+            $("#dobp1").datepicker({
+                dateFormat: "yy-mm-dd"
+            });
+            $("#dobp2").datepicker({
+                dateFormat: "yy-mm-dd"
+            });
         });
     </script>
     <div id="logo-initial"><h1>dotGame</h1></div>
