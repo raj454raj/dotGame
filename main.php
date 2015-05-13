@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>The Dot Game</title>
-	<script src="../scripts/jquery.js"></script>
+	<script src="jquery.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script>       
 </head>
 
@@ -56,19 +56,19 @@
 	<div id="aftergame">
 		<div id="winnername">
 			<div style="float:left">
-			<img src="../styles/trophy.png" style="height:100px;width:100px;"/>
+			<img src="trophy.png" style="height:100px;width:100px;"/>
 			</div>
 			<div style="text-align:center;">
 			<p id="winner" style="float:left;font-size:30px;margin-left:15%;"><strong><b>WINNER IS RAJ!!!</b></strong></p>
-			<img src="../styles/trophy.png" style="height:100px;width:100px;float:right"/>
+			<img src="trophy.png" style="height:100px;width:100px;float:right"/>
 			</div>
 		</div>
 	</div>
 	<div id="game">
-	<img src="../styles/dot.png" id="logo"/>
+	<img src="dot.png" id="logo"/>
 	<canvas id="maincanvas" width="500px" height="500px" onmousedown="showcoordinate(event)"></canvas>
-	<link rel="stylesheet" href="../styles/style.css">
-	<script type="text/javascript" src="../scripts/game.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="game.js"></script>
 	<div id="statusred"></div>
 	<div id="statusgreen"></div>
 	<div id="result" style="visibility:hidden;">0</div>

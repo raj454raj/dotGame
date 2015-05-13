@@ -67,7 +67,7 @@ function sendresults(num)
 			setTimeout(refreshthis,3000);
 		}
 	}
-	xml.open("GET", "update_db?name="+pname+"&dob="+dob);
+	xml.open("GET", "update_db.php?name="+pname+"&dob="+dob);
 	xml.send();
 }
 $(document).ready(function()
